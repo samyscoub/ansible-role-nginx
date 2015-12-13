@@ -67,6 +67,7 @@
   with_items: nginx_sites.keys()
   notify:
     - "reload nginx"
+  when: nginx_enable_sites is defined and nginx_enable_sites
   tags:
     - configuration
     - nginx

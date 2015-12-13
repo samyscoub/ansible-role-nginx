@@ -42,3 +42,5 @@ nginx_auth_basic_files: {}
 nginx_remove_auth_basic_files: []
 
 nginx_daemon_mode: "on"
+
+nginx_enable_sites: True
